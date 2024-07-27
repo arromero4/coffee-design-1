@@ -1,0 +1,30 @@
+.bg-home-page {
+  top: 101px;
+  left: 0;
+  background-color: #2f1f14;
+  width: 100%;
+  height: 568px;
+}
+
+.image-removebg-preview-2-1 {
+  position: absolute;
+  top: 0px;
+  left: 1260px;
+  width: 643px;
+  height: 568px;
+  object-fit: cover;
+  }
+
+
+@media only screen and (max-width: 1368px) {
+  .bg-home-page {
+    height: 368px;
+  }
+
+  .image-removebg-preview-2-1 {
+    height: 368px;
+    left: -1px;
+    object-fit: contain;
+    }
+  
+}
