@@ -9,12 +9,101 @@
 .image-removebg-preview-2-1 {
   position: absolute;
   top: 0px;
-  left: 1260px;
+  left: 1278px;
   width: 643px;
   height: 568px;
   object-fit: cover;
   }
 
+
+  .borcelle-2-removebg-preview-icon {
+    width: 559px;
+    height: 559px;
+    left: 131px;
+    bottom: 122px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+
+  .coffee-makes-mood {
+    position: absolute;
+    top: 273px;
+    left: 459px;
+    font-size: 128px;
+    font-family: Pompiere;
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    width: 804px;
+    height: 141px;
+  }
+
+  .indulge-in-every {
+    margin: 0;
+  }
+  
+  .indulge-in-every-container {
+    position: absolute;
+    top: 424px;
+    left: 459px;
+    display: inline-block;
+    width: 835px;
+    height: 59px;
+    text-align: left;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Galada;
+  }
+
+  .menu-section{
+    position: absolute;
+    top: 150px;
+    left: 478px;
+    width: 952px;
+    height: 62.6px;
+    font-size: 24px;
+    color: #fff;
+    font-family: Inter;
+    background-color: #6f4436;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 40px;
+    
+  }
+
+  .menu-item{
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: background-color 0.1s ease, color 0.1s ease;
+  }
+  .menu-item a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .menu-item:hover,
+  .menu-item:focus {
+    background-color: #fff;
+
+  }
+  
+  .menu-item a:hover{
+    text-decoration: none;
+    color: #220404;
+  }
+  
 
 @media only screen and (max-width: 1368px) {
   .bg-home-page {
@@ -23,8 +112,54 @@
 
   .image-removebg-preview-2-1 {
     height: 368px;
-    left: -1px;
-    object-fit: contain;
+    width: 343px;
+    left: 960px;
+    object-fit: cover;
+    }
+
+    .borcelle-2-removebg-preview-icon {
+      width: 359px;
+      height: 359px;
+      left: 60px;
+      bottom: 70px;
+      position: relative;
+      max-width: 100%;
+      overflow: hidden;
+      object-fit: cover;
+    }
+    
+    .coffee-makes-mood {
+      top: 173px;
+      left: 259px;
+      font-size: 118px;
+      font-family: Pompiere;
+
+    }
+
+    .indulge-in-every {
+      margin: 0;
+    }
+    
+    .indulge-in-every-container {
+      top: 304px;
+      left: 259px;
+      font-size: 32px;
+    }
+  
+    .menu-section{
+      top: 75px;
+      left: 278px;
+      width: 742px;
+      height: 42.6px;
+      font-size: 16px;
+    }
+
+    .menu-list ul{
+      gap: 60px;
+      
+    }
+    .menu-item{
+      padding: 8px 5px;
     }
   
 }

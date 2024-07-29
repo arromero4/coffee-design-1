@@ -9,12 +9,13 @@ const HomeSection = () => {
     <div className="home-section">
       <div className="bg-home-page"> 
       <img className="image-removebg-preview-2-1" alt="" src={imageremovebg} />
+      <img className="borcelle-2-removebg-preview-icon" alt="" src={borcell2} />
       </div>
       <div className="indulge-in-every-container">
-        <p className="indulge-in-every">Indulge in Every Sip: Experience the Richness of Coffee!</p>
+        <p className="indulge-in-every">&quot;Indulge in Every Sip: Experience the Richness of Coffee!&quot;</p>
       </div>
       <div className="coffee-makes-mood">Coffee Makes Mood</div>
-      <img className="borcelle-2-removebg-preview-icon" alt="" src={borcell2} />
+
       <div className="menu-section">
         <nav className="menu-list">
           <ul>
