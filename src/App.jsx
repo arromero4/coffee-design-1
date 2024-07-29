@@ -1,3 +1,4 @@
+import AboutUsSection from './components/AboutUsSection'
 import HomeSection from './components/HomeSection'
 import './pages/App.css'
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <>
      <HomeSection/>
+     <AboutUsSection />
     </>
   )
 }
