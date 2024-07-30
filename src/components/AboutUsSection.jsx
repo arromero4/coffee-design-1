@@ -11,7 +11,9 @@ const AboutUsSection = () => {
 
         <div className="at-coffee-borcelle-container">
           <p className="at-coffee-borcelle">At Coffee Borcelle, we&#39;re on a mission to redefine your coffee moments. Our carefully curated selection of premium beans, sourced from the world&#39;s most renowned coffee regions.</p>
+          <br />
           <p className="at-coffee-borcelle">{`With expert craftsmanship and a commitment to quality, `}</p>
+     
           <p className="at-coffee-borcelle">Join us in savoring the art of coffee, one cup at a time.</p>
         </div>
 

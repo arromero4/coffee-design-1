@@ -18,7 +18,7 @@
   border-radius: 4px;
   color: #fff;
   font-family: Poppins;
-  font-size: medium;
+  font-size: large;
 }
 
 .at-coffee-borcelle {
@@ -32,6 +32,7 @@
   width: 696px;
   height: 182px;
   color: rgba(27, 11, 11, 0.85);
+  font-size: 24px;
 }
 
 .elevating-your-coffee {
@@ -44,6 +45,7 @@
   font-family: Poppins;
   width: 696px;
   height: 64px;
+  
 }
 
 .discover-coffee-borcelle {
@@ -89,7 +91,50 @@
 }
 
 @media only screen and (max-width: 1368px) {
+  .about-us-section{
+    height: 368px;
+  }
   .bg {
     height: 368px;
   }
+  .frame4 {
+    height: 368px;
+    width: 368px;
+  }
+
+  .coffee-image-icon {
+    top: 58px;
+    height: 256px;
+    object-fit: contain;
+  }
+
+  .discover-coffee-borcelle {
+    height: 84px;
+    left: 563px;
+    font-size: 50px;
+  }
+
+  .elevating-your-coffee {
+    left: 563px;
+    top: 137px;
+    font-size: 28px;
+
+  }
+
+  .at-coffee-borcelle-container {
+    left: 563px;
+    top: 188px;
+    font-size: 12px;
+
+  }
+  
+.read-more {
+
+  top: 276px;
+  left: 563px;
+  width: 176px;
+  height: 35px;
+
+}
+
 }
