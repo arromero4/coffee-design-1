@@ -1,5 +1,6 @@
 import AboutUsSection from './components/AboutUsSection'
 import HomeSection from './components/HomeSection'
+import SponsersSection from './components/SponsersSection'
 import './pages/App.css'
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
      <HomeSection/>
      <AboutUsSection />
+     <SponsersSection />
     </>
   )
 }
