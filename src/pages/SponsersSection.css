@@ -1,0 +1,70 @@
+.bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #655546;
+  width: 1980px;
+  height: 621px;
+}
+
+.what-other-people{
+  position: absolute;
+  top: 192px;
+  left: 0px;
+  display: inline-block;
+  width: 696px;
+  height: 78.9px;
+}
+
+.frame{
+  position: absolute;
+  top: 0px;
+  left: 679px;
+  width: 696px;
+  height: 270.9px;
+  overflow: hidden;
+  font-size: 39px;
+  color: #fff;
+}
+
+
+.menu-section{
+  position: absolute;
+  top: 150px;
+  left: 478px;
+  width: 952px;
+  height: 62.6px;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+  background-color: #6f4436;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-list ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 40px;
+
+}
+
+
+.menu-item a{
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+} 
+
+.menu-item:hover a{ 
+  text-decoration: none;
+  background-color: #fff;
+  color: #2f1f14;
+  transition: background-color 0.1s ease, color 0.1s ease;
+}

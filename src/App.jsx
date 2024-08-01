@@ -6,9 +6,9 @@ function App() {
 
   return (
     <>
-     <HomeSection/>
-     <AboutUsSection />
-     <SponsersSection />
+    <HomeSection/>
+     {/* <AboutUsSection />
+     <SponsersSection /> */}
     </>
   )
 }
