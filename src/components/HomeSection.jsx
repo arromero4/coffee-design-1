@@ -16,12 +16,7 @@ const HomeSection = () => {
 
 
      <img className="borcelle-2-removebg-preview-icon" alt="" src={borcell2} />
-      <div className="indulge-in-every-container">
 
-        <p className="indulge-in-every">&quot;Indulge in Every Sip: Experience the Richness of Coffee!&quot;</p>
-      </div>
-
-      <div className="coffee-makes-mood">Coffee Makes Mood</div>
 
       <div className="menu-section">
 
@@ -47,7 +42,12 @@ const HomeSection = () => {
         </nav>
 
       </div>
+      <div className="indulge-in-every-container">
 
+        <p className="indulge-in-every">&quot;Indulge in Every Sip: Experience the Richness of Coffee!&quot;</p>
+      </div>
+
+      <div className="coffee-makes-mood">Coffee Makes Mood</div>
     </div>
     );
 };

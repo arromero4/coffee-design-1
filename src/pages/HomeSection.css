@@ -15,34 +15,32 @@
   height: 800px;
   object-fit: cover;
 
-  border: solid 1px red;
 }
 
 
 .borcelle-2-removebg-preview-icon {
-  width: 100%;
-  position: relative;
+  width: 593px;
+  position: absolute;
   max-width: 100%;
   overflow: hidden;
   height: 539px;
   object-fit: cover;
-  border: solid 1px red;
+  top: -85px;
+  left: 131px;
  
 }
 
 .coffee-makes-mood {
-  position: relative;
-  top: 372px;
-  left: 359px;
-  right: 814px;
-  bottom: 287px;
+  position: absolute;
+  width: 804px;
   font-size: 128px;
   font-family: Pompiere;
   color: rgba(255, 255, 255, 0.8);
   display: inline-block;
-  width: 804px;
+  text-align: left;
   height: 141px;
-  border: solid 1px red;
+  top: 372px;
+  left: 359px;
 }
 
 .indulge-in-every {
@@ -51,7 +49,8 @@
 
 .indulge-in-every-container {
   width: 835px;
-  position: relative;
+  height: 59px;
+  position: absolute;
   font-size: 36px;
   font-family: Galada;
   color: rgba(255, 255, 255, 0.9);
@@ -60,8 +59,7 @@
   top: 513px;
   left: 345px;
   bottom: 228px;
-  height: 59px;
-  border: solid 1px red;
+
 }
 
 .menu-section {
