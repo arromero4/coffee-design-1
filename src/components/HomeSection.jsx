@@ -8,17 +8,23 @@ const HomeSection = () => {
   return (
     <div className="home-section">
 
-      <div className="bg-home-page"> 
-      <img className="borcelle-2-removebg-preview-icon" alt="" src={borcell2} />
-      <img className="image-removebg-preview-2-1" alt="" src={imageremovebg} />
+      <div className="bg-home-page">      
+      <img className="image-removebg-preview-2-1" alt="" src={imageremovebg} />    
+     </div>
 
-      </div>
+
+
+
+     <img className="borcelle-2-removebg-preview-icon" alt="" src={borcell2} />
       <div className="indulge-in-every-container">
+
         <p className="indulge-in-every">&quot;Indulge in Every Sip: Experience the Richness of Coffee!&quot;</p>
       </div>
+
       <div className="coffee-makes-mood">Coffee Makes Mood</div>
 
       <div className="menu-section">
+
         <nav className="menu-list">
           <ul>
             <li className='menu-item'>

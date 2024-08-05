@@ -6,19 +6,6 @@
   height: 800px;
 }
 
-.borcelle-2-removebg-preview-icon {
-  width: 593px;
-  height: 539px;
-  position: relative;
-  max-width: 100%;
-  overflow: hidden;
-  object-fit: cover;
-  border: solid 1px red;
-  top: 16px;
-  left: 136px;
-  bottom: 362px;
-  right: 1253px;
-}
 
 .image-removebg-preview-2-1 {
   position: relative;
@@ -29,6 +16,18 @@
   object-fit: cover;
 
   border: solid 1px red;
+}
+
+
+.borcelle-2-removebg-preview-icon {
+  width: 100%;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 539px;
+  object-fit: cover;
+  border: solid 1px red;
+ 
 }
 
 .coffee-makes-mood {
