@@ -4,7 +4,7 @@ import coffeeImage from '../assets/coffee-IMAGE.png'
 const AboutUsSection = () => {
   return (
     <div className="about-us-section">
-      <div className="bg">
+
         <div className="discover-coffee-borcelle">Discover Coffee Borcelle</div>
         <div className="elevating-your-coffee">Elevating Your Coffee Experience</div>
 
@@ -23,7 +23,7 @@ const AboutUsSection = () => {
         </div>
 
         <button className="read-more">Read More</button>
-      </div>
+
     </div>
   )
 }

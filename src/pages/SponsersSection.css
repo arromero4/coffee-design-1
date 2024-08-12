@@ -1,70 +1,92 @@
-.bg {
-  position: absolute;
-  top: 0px;
-  left: 0px;
+.sponsers-section {
+  position: relative;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: #655546;
-  width: 1980px;
+  width: 1977px;
   height: 621px;
 }
 
-.what-other-people{
+.reviews {
+  width: 696px;
   position: absolute;
-  top: 192px;
-  left: 0px;
+  font-size: 64px;
   display: inline-block;
-  width: 696px;
-  height: 78.9px;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: center;
+  height: 62px;
+  left: 675px;
+  top: 119px;
 }
 
-.frame{
+.coffeeCup {
+  width: 102px;
   position: absolute;
-  top: 0px;
-  left: 679px;
-  width: 696px;
-  height: 270.9px;
+  max-width: 100%;
   overflow: hidden;
-  font-size: 39px;
-  color: #fff;
+  height: 91px;
+  object-fit: cover;
+  left: 1162px;
+  top: 104px;
 }
 
-
-.menu-section{
+.what-other-people {
+  width: 696px;
   position: absolute;
-  top: 150px;
-  left: 478px;
-  width: 952px;
-  height: 62.6px;
-  font-size: 24px;
+  font-size: 39px;
+  font-family: Poppins;
   color: #fff;
-  font-family: Inter;
-  background-color: #6f4436;
-  border-radius: 10px;
-  display: flex;
+  text-align: center;
+  display: inline-block;
+  height: 78.9px;
+  top: 192px;
+  left: 679px;
+}
+
+.wrapper {
+  display: grid;
+  width: 1360px;
+  height: 200px;
+  gap: 50px;
+  top: 311px;
+  left: 314px;
+  position: relative;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  justify-content: center;
+  justify-items: center;
 }
 
-.menu-list ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 40px;
-
+.image {
+  width: 420px;
+  height: 200px;
+  box-shadow: -40px -40px 100px rgba(0, 0, 0, 0.25),
+    40px 40px 100px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  background-color: #dbbca1;
 }
 
+.text-opinion {
+  width: 100%;
+  padding: 5px 44px 72px 36px;
+  position: relative;
+  font-size: 16px;
+  font-family: Poppins;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  height: 107px;
+}
 
-.menu-item a{
-  padding: 10px 15px;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #fff;
-} 
-
-.menu-item:hover a{ 
-  text-decoration: none;
-  background-color: #fff;
-  color: #2f1f14;
-  transition: background-color 0.1s ease, color 0.1s ease;
+.text-ceo {
+  width: 129px;
+  position: relative;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #0a424f;
+  text-align: center;
+  display: inline-block;
+  height: 16px;
+  top: 162px;
+  left: 135px;
 }
