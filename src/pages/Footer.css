@@ -1,0 +1,213 @@
+.footer {
+  width: 1977px;
+  position: relative;
+  background-color: #291600;
+  height: 810px;
+}
+
+.contact-us{
+  width: 348px;
+  position: relative;
+  font-size: 60px;
+  display: inline-block;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  height: 78.5px;
+  top: 92.43px;
+  left: 371px;
+}
+
+.send-us-a{
+  width: 348px;
+  position: absolute;
+  font-size: 36px;
+  font-family: Inter;
+  color: rgba(255, 255, 255, 0.66);
+  text-align: left;
+  display: inline-block;
+  height: 78.5px;
+  top: 170.94px;
+  left: 371px;
+}
+
+.form-contact-us{
+  width: 348px;
+  top: 239px;
+  left: 371px;
+  position: relative;
+}
+
+.full-name{
+  width: 297px;
+  position: relative;
+  background-color: #fff;
+  height: 60px;
+  border: 4px ;
+  border-radius: 2px;
+}
+
+.your-email{
+  width: 297px;
+  position: relative;
+  background-color: #fff;
+  height: 60px;
+  border: 4px ;
+  border-radius: 2px;
+}
+
+.your-message{
+  width: 405px;
+  position: relative;
+  background-color: #fff;
+  height: 120px;
+  border: 4px ;
+  border-radius: 2px;
+}
+
+
+::placeholder{
+  position: relative;
+  font-size: 24px;
+  font-family: Inter;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  display: inline-block;
+
+}
+
+.submit{
+  width: 195px;
+  position: relative;
+  border-radius: 13px;
+  background-color: #dbbca1;
+  height: 60px;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-family: Inter;
+  display: inline-block;
+
+}
+
+.copyright-rectangle{
+  position: absolute;
+  top: 790px;
+  left: 0px;
+  background-color: #dbbca1;
+  width: 1977px;
+  height: 101px;
+
+}
+
+.copyright-all{
+  width: 616px;
+  position: relative;
+  font-size: 24px;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  height: 45px;
+  top: 38px;
+  left: 697px;
+}
+
+.sitemap{
+  width: 253px;
+  position: absolute;
+  font-size: 60px;
+  display: inline-block;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  height: 75.5px;
+  top: 95.41px;
+  left: 835px;
+}
+
+.all-our-pages{
+  width: 233px;
+  position: absolute;
+  font-size: 36px;
+  font-family: Inter;
+  color: rgba(255, 255, 255, 0.66);
+  text-align: left;
+  display: inline-block;
+  height: 44.7px;
+  top: 170.94px;
+  left: 835px;
+}
+
+.all-our-pages-list-container{
+  width: 235px;
+  height: 235px;
+  position: absolute;
+  font-size: 36px;
+  top: 261px;
+  left: 835px;
+  font-size: 36px;
+  font-family: Inter;
+  
+}
+
+.all-our-pages-list-item{
+  list-style: inside;
+  color: #fff;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.borcelle-2-removebg-preview-icon-2{
+  width: 482px;
+  height: 434px;
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  top: 3px;
+  left: 1179px;
+}
+
+.contact-phone-icon{
+  width: 36px;
+  height: 36px;
+  top: 363px;
+  left: 1202px;
+  position: absolute;
+}
+
+.contact-phone-number{
+  width: 261px;
+position: absolute;
+font-size: 36px;
+font-family: Inter;
+color: rgba(255, 255, 255, 0.66);
+text-align: left;
+display: inline-block;
+height: 44.7px;
+top: 357px;
+left: 1264px;
+}
+
+.contact-email-icon{
+  width: 36px;
+  height: 36px;
+  top: 419px;
+  left: 1202px;
+  position: absolute;
+}
+
+.contact-email{
+  width: 261px;
+position: absolute;
+font-size: 36px;
+font-family: Inter;
+color: rgba(255, 255, 255, 0.66);
+text-align: left;
+display: inline-block;
+height: 44.7px;
+top: 415px;
+left: 1264px;
+}
